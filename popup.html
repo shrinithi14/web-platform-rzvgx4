@@ -1,0 +1,16 @@
+<script>
+    window.addEventListener('load',function(){
+      setTimeout(function(){
+        var result = confirm(
+  'The webpage you are viewing is trying to close the window. Do you want to close this window'
+);
+if (result) {
+//     var win = window.open(
+//   'about:blank',
+//   '_self'
+// ); 
+window.close();
+      }},2000)
+});
+</script>
+<div>I am Popup!</div>
